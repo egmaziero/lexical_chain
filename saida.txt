@@ -1,0 +1,61 @@
+[3]chefe (foreman.n.01) -> 
+[9]ministro (curate.n.01) -> [34]ministro (curate.n.01) -> [292]ministro (curate.n.01) -> [379]ministro (curate.n.01) -> [450]ministro (curate.n.01) -> [482]ministro (curate.n.01) -> [503]ministro (curate.n.01) -> 
+[17]candidato (campaigner.n.01) -> 
+[31]crise (crisis.n.01) -> 
+[38]milagres (miracle.n.01) -> 
+[54]instabilidade (instability.n.01) -> 
+[59]missão (mission.n.01) -> 
+[63]pasta (booklet.n.01) -> [489]pasta (booklet.n.01) -> 
+[67]imagem (image.n.01) -> 
+[74]diálogo (dialogue.n.01) -> 
+[77]partidos (party.n.01) -> 
+[80]governo (government.n.01) -> [373]governo (government.n.01) -> 
+[85]palavras (word.n.01) -> 
+[87]ordem (order.n.01) -> 
+[95]equipe (team.n.01) -> 
+[118]status (status.n.01) -> [129]condição (condition.n.01) -> 
+[131]primeiro-ministro (Prime_Minister.n.01) -> 
+[133]papel (paper.n.01) -> 
+[137]antecessor (predecessor.n.01) -> 
+[144]lado (side.n.01) -> [170]parte (part.n.01) -> [487]cargos (office.n.01) -> 
+[148]cerimônia (ceremony.n.01) -> 
+[150]posse (possession.n.01) -> 
+[153]segunda-feira (Monday.n.01) -> 
+[160]propósito (purpose.n.01) -> 
+[168]oposição (resistance.n.01) -> 
+[176]pedidos (request.n.01) -> 
+[178]deposição (deposition.n.01) -> 
+[180]presidente (president.n.01) -> 
+[186]desvios (detour.n.01) -> 
+[188]conduta (behavior.n.01) -> [201]processo (procedure.n.01) -> 
+[196]estratégia (scheme.n.01) -> 
+[203]impeachment (impeachment.n.01) -> [223]mandato (mandate.n.01) -> 
+[211]entendimento (understanding.n.01) -> 
+[214]irregularidades (abnormality.n.04) -> 
+[219]anos (year.n.01) -> [267]ano (year.n.01) -> [287]ano (year.n.01) -> 
+[238]conversas (convert.n.01) -> [303]líderes (leader.n.01) -> 
+[243]denúncias (ailment.n.01) -> 
+[250]fatos (fact.n.01) -> 
+[272]argumentos (argument.n.01) -> [390]registros (record.n.01) -> 
+[278]pedaladas (cycling.n.01) -> 
+[285]semestre (semester.n.01) -> 
+[301]alvo (target.n.01) -> 
+[305]base (base.n.01) -> 
+[307]reunião (meeting.n.01) -> 
+[310]articulação (articulation.n.01) -> 
+[341]espécie (species.n.01) -> 
+[343]auxílio-desemprego (social_welfare.n.01) -> 
+[346]pescador (fisherman.n.01) -> 
+[351]pagamento (payment.n.01) -> 
+[354]moldes (cast.n.03) -> [360]forma (form.n.01) -> 
+[392]médico (doctor.n.01) -> [454]médico (doctor.n.01) -> 
+[414]site (site.n.01) -> 
+[416]entidade (entity.n.01) -> 
+[422]psiquiatria (psychiatry.n.01) -> 
+[431]lista (list.n.01) -> 
+[433]especialistas (specialist.n.01) -> 
+[443]assessoria (advice.n.01) -> 
+[461]ala (ala.n.01) -> 
+[476]mão (hand.n.01) -> 
+[480]autonomia (autonomy.n.01) -> 
+[499]bancada (countertop.n.01) -> 
