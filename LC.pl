@@ -1,10 +1,19 @@
 use strict;
+use Cwd;
+my $dir = getcwd;
 
-my $dir = "/u/erick/LC";
 
+my $in;
+$in = $ARGV[0];
 
-my $in = $ARGV[0];
-#my $in = "/u/erick/LC/ArtigoWTDA_Agrbalan.txt";
+if (length($in) == 0)
+{
+	print("Enter the full path to file to be processed as the first argument.\n\n");
+	exit -1;
+}
+
+#my $in = $dir."/ArtigoWTDA_Agrbalan.txt";
+
 chdir($dir."/wsd");
 system("java -jar graph_wsd.jar -in ".$in." -wordnet ".$dir."/resources/WordNet-3.0/dict > ".$dir."/temp/WSDout.txt");
 system("java -jar graph_wsd.jar -in ".$dir."/temp/WSDout.txt -wordnet ".$dir."/resources/WordNet-3.0/dict -find > ".$dir."/temp/WSDout2.txt");
@@ -29,8 +38,6 @@ my $a = 0;
 firstValue($a);
 for(my $i=1; $i<=$#candidates; $i++)
 {
-	#my @hyper = @{$candidates[$i]->{hyperonyms}};
-	#my @synos = @{$candidates[$i]->{synonyms}};
 	my $max = 0;
 	my $curr = 0;
 	my $index;
@@ -61,15 +68,11 @@ for(my $i=1; $i<=$#candidates; $i++)
 	}
 	if ($max > 0)
 	{
-		#print "$i to $index\n";
 		addToPosition($index,$i);
-		#print $ident." - ".$syno." - ".$hype." - ".$hypo." - ".$sibli." -> $max\n";
-		#push(@{$LC[$index]->{items}},$i);
 	}
 	else
 	{
 		addNew($i);
-		#push(@ { $LC[($#LC+1)]->{items} },$i);
 	}
 }
 
